@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+          <h1>Добро пожаловать в кинотеатр  "Семетей"</h1>
+          <ul>
+            <li><a href="#marlen">Афиша</a></li>
+            <li><a href="#mari">Расписание</a></li>
+            <li><a href="#m.kg">Бронирование</a></li>
+          </ul>
+          <section id="marlen">
+          <h2>Афиша</h2>
+          <h3>Ашыгым</h3>
+          <img src="Ашыгым.jpg" width="200" height="200" style="border: 5px dotted rgb(255, 133, 133);">
+          <p>Мелодрамма, комедия, Актеры:Мадленна Абдрахманова,Бекболот Конурбаев</p>
+        <h2>Интерстеллар</h2>
+        <img src="интерстеллар.jpg" width="200" height="200" style="border: 5px dotted rgb(117, 117, 117);">
+        <p>Фантастика,боевик, в главных ролях:Макконахи,Хэтэуей,Энн</p>   
+        <section id="mari">
+        <h1>Расписание сеансов</h1>
+         <ul>
+            <li>10:00-Ашыгым</li>
+            <li>13:00-Интерстеллар</li>
+            <li>16:00-Ашыгым</li>
+            <li>19:00-Интерстеллар</li>
+         </ul>
+         <section id="m.kg">
+            <h2>Бронирование билетов</h2>
+            <form action="#" method="post">
+                <label>Выберите фильм:
+                    <select name="film" >
+                        <option >интерстеллар</option>
+                        <option>Ашыгым</option>
+                    </select>
+                </label><br><br>
+                <label >Время сеанса:
+                    <select name="time" id="time">
+                         <option >10:00</option>
+                         <option >13:00</option>
+                          <option >16:00</option>
+                           <option >19:00</option>
+                    </select>
+                </label><br><br>
+                <label >Количество билетов
+                    <input type="number" name="tickets">
+                </label><br><br>
+                <label>Ваше имя:
+                    <input type="name" name="name">
+                </label><br><br>
+                <label >Email для потверждения:
+                    <input type="email" name="email">
+                </label><br><br>
+                <button type="submit">Забронировать</button>                
+            </form>
+            <p>©2025 Кинотеатр "Семетей". Все права защищены.</p>
+           
+</body>
+</html>
